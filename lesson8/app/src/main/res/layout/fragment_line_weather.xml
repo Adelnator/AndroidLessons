@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:alpha="0.87"
+        android:background="@drawable/geks"
+        android:gravity="center"
+        android:text="Mon 27\\Feb"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:alpha="0.87"
+        android:gravity="center"
+        android:text="+28 °C \\ + 30 °C"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/big_text" />
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+</LinearLayout>
